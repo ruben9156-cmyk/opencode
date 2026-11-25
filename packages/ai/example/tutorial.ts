@@ -155,9 +155,7 @@ const generateDynamicObject = LLM.generateObject({
   },
 })
 
-// -----------------------------------------------------------------------------
 // Part 2: provider composition with a fake provider
-// -----------------------------------------------------------------------------
 
 // A protocol is the provider-native API shape: common request -> body, response
 // frames -> common events. This fake one turns text prompts into a JSON body
